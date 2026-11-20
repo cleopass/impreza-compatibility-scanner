@@ -1,0 +1,54 @@
+/* Impreza Compatibility Scanner — admin styles (scoped to .ics-wrap). */
+
+.ics-wrap .ics-intro { max-width: 900px; font-size: 14px; }
+
+.ics-wrap .ics-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	margin: 16px 0;
+	padding: 4px 16px 16px;
+}
+.ics-wrap .ics-card > h2 { font-size: 15px; margin: 12px 0; }
+
+.ics-wrap .ics-env th { width: 280px; font-weight: 600; }
+.ics-wrap .ics-warn { color: #b32d2e; margin-left: 6px; }
+
+.ics-wrap .ics-progress { margin: 8px 0 4px; max-width: 700px; }
+.ics-wrap .ics-progress-bar { height: 14px; background: #f0f0f1; border-radius: 7px; overflow: hidden; }
+.ics-wrap .ics-progress-bar span { display: block; height: 100%; background: #2271b1; transition: width .3s ease; }
+.ics-wrap .ics-cancel { color: #b32d2e; border-color: #b32d2e; }
+
+.ics-wrap .ics-assessment { border-left: 6px solid; padding: 4px 16px; margin: 16px 0; background: #fff; }
+.ics-wrap .ics-assessment h2 { font-size: 18px; margin: 12px 0 6px; }
+.ics-wrap .ics-assessment-error { border-color: #d63638; background: #fcf0f1; }
+.ics-wrap .ics-assessment-warning { border-color: #dba617; background: #fcf9e8; }
+.ics-wrap .ics-assessment-success { border-color: #00a32a; background: #edfaef; }
+.ics-wrap .ics-disclaimer { font-style: italic; }
+
+.ics-wrap .ics-stats { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; }
+.ics-wrap .ics-stat { border: 1px solid #dcdcde; border-top-width: 4px; padding: 8px 12px; min-width: 150px; }
+.ics-wrap .ics-stat-value { display: block; font-size: 20px; font-weight: 600; }
+.ics-wrap .ics-stat-label { color: #50575e; }
+.ics-wrap .ics-stat-incompatible { border-top-color: #d63638; }
+.ics-wrap .ics-stat-unknown { border-top-color: #dba617; }
+.ics-wrap .ics-stat-unregistered { border-top-color: #8c8f94; }
+.ics-wrap .ics-stat-compatible { border-top-color: #00a32a; }
+
+.ics-wrap .ics-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.ics-wrap .ics-badge-compatible { background: #edfaef; color: #00701a; }
+.ics-wrap .ics-badge-incompatible { background: #fcf0f1; color: #a00; }
+.ics-wrap .ics-badge-unknown { background: #fcf9e8; color: #6e5300; }
+.ics-wrap .ics-badge-unregistered { background: #f0f0f1; color: #3c434a; }
+
+.ics-wrap .ics-results .tablenav .actions select { max-width: 200px; }
+.ics-wrap .ics-reason { margin: 0 0 4px; }
+.ics-wrap .ics-details { color: #50575e; font-size: 12px; }
+.ics-wrap .ics-sample, .ics-wrap .ics-small { font-size: 11px; word-break: break-all; }
+.ics-wrap .ics-evidence ul { list-style: disc; margin-left: 18px; }
+.ics-wrap .ics-warnings ul { list-style: disc; margin-left: 18px; }
+.ics-wrap .column-reason { width: 34%; }
+.ics-wrap .column-occurrences, .ics-wrap .column-items { width: 80px; }
+
+.ics-wrap .ics-legend dt { margin-top: 10px; }
+.ics-wrap .ics-legend dd { margin-left: 0; max-width: 900px; }
